@@ -1,0 +1,26 @@
+h1 {font-family: 'Cedarville Cursive', cursive;background-color: white;padding-bottom: 10px;text-align: center;padding-top: 30px;width: 100%;}
+
+.navbar-brand {font-family: 'Cedarville Cursive', cursive; padding-top: 0px; background-color: white;}
+
+.container {font-family: 'Syne', sans-serif;width:100%;padding-right:25px;padding-left:25px;margin-right:auto;margin-left:auto;padding-top: 30px;padding-bottom: 25px;border-style:ridge;background-color: white;}
+
+.cardmt-2 {background-color: azure;}
+
+.divider {padding-top: 20px;padding-bottom: 50px;}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/d5/b6/6b/d5b66beed89914298ba1d73640e96434.jpg"), url("https://i.pinimg.com/originals/d5/b6/6b/d5b66beed89914298ba1d73640e96434.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color:white;
+    background-attachment: fixed;
+    margin-top: 30px;
+    font-family: 'Syne', sans-serif;
+  }
+
+  .charlie 
+  {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.navbar-nav { background-color:white; width: 100%;padding-bottom: 10px;padding-top: 0px;font-size: 20px;font-family: 'Syne', sans-serif;}
