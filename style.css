@@ -8,6 +8,8 @@ h1 {font-family: 'Cedarville Cursive', cursive;background-color: white;padding-b
 
 .divider {padding-top: 20px;padding-bottom: 50px;}
 
+.navbarNav {background-color: white;}
+
 body {
     background-image: url("https://www.icolorpalette.com/download/solidcolorimage/00022e_solid_color_background_icolorpalette.png"), url("https://www.icolorpalette.com/download/solidcolorimage/00022e_solid_color_background_icolorpalette.png");
     background-repeat: no-repeat, repeat;
