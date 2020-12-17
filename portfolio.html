@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Rachel Rosenstein Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap" rel="stylesheet">
@@ -16,59 +16,53 @@
 </head>
 
 <body>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Me</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    My Portfolio
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="portfolio.html">Web Design / Full Stack
-                        Work</a>
-                    <a class="dropdown-item" href="https://www.linkedin.com/in/rachel-rosenstein">LinkedIn</a>
-                    <a class="dropdown-item" href="https://github.com/rachelrosenstein">GitHub Profile
-                    </a>
-                </div>
-
-            </li>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </ul>
-
-        </nav>
-
-        <div class="divider"></div>
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+            </div>
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-3">
+                    <img src="https://www.biz4group.com/images/blog-img6.jpg" alt="Developer" class="img-thumbnail">
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://www.biz4group.com/images/blog-img6.jpg" alt="Developer" class="img-thumbnail">
-                    </div>
-                    <div class="col-md-9">
-                        <p>Web Design and Full Stack Work:</p>
-                        <p>GitHub: <a href="https://github.com/rachelrosenstein">https://github.com/rachelrosenstein</a>
-                        </p>
-                        <p>LinkedIn: <a
-                                href="https://www.linkedin.com/in/rachel-rosenstein">https://www.linkedin.com/in/rachel-rosenstein</a>
-                        </p>
-                        <p>Resume: <a href="RachelRosensteinResume.pdf">Click
-                                Here to View My Resume</a>
-                        </p>
-                    </div>
+                <div class="col-md-9">
+                    <p>Web Design and Full Stack Work:</p>
+                    <p>GitHub: <a href="https://github.com/rachelrosenstein">https://github.com/rachelrosenstein</a>
+                    </p>
+                    <p>LinkedIn: <a
+                            href="https://www.linkedin.com/in/rachel-rosenstein">https://www.linkedin.com/in/rachel-rosenstein</a>
+                    </p>
+                    <p>Resume: <a href="RachelRosensteinResume.pdf">Click
+                            Here to View My Resume</a>
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <div class="divider"></div>
     <div class="container">
@@ -93,6 +87,58 @@
                         recipe to make with the ingredients they currently have in their fridge. Once the ingredients
                         that are available have been searched a recipe is generated that includes: the country of
                         origin, ingredients, instructions, a link to a Youtube video and a picture!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="https://github.com/rachelrosenstein/Code-Quiz/blob/master/Screen%20Shot%202020-09-19%20at%2011.21.10%20AM.png?raw=true"
+                        alt="Developer" class="img-thumbnail">
+                </div>
+                <div class="col-md-9">
+                    <p>Code Quiz</p>
+                    <p>Link to Github Repo: <a
+                            href="https://github.com/rachelrosenstein/Code-Quiz">https://github.com/rachelrosenstein/Code-Quiz</a>
+                    </p>
+                    <p>Link to Deployed Application: <a
+                            href="https://rachelrosenstein.github.io/Code-Quiz/">https://rachelrosenstein.github.io/Code-Quiz/</a>
+                    </p>
+                    <p>Description:This is a multiple choice timed JavaScript quiz with multiple-choice questions. This
+                        app will run in the browser and feature dynamically updated HTML and CSS powered by your
+                        JavaScript code.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="https://github.com/rachelrosenstein/Work-Day-Scheduler/blob/master/Screen%20Shot%202020-10-18%20at%208.35.26%20AM.png?raw=true"
+                        alt="Developer" class="img-thumbnail">
+                </div>
+                <div class="col-md-9">
+                    <p>Workday Scheduler</p>
+                    <p>Link to Github Repo: <a
+                            href="https://github.com/rachelrosenstein/Work-Day-Scheduler">https://github.com/rachelrosenstein/Work-Day-Scheduler</a>
+                    </p>
+                    <p>Link to Deployed Application: <a
+                            href="https://rachelrosenstein.github.io/Work-Day-Scheduler/">https://rachelrosenstein.github.io/Work-Day-Scheduler/</a>
+                    </p>
+                    <p>Description: Create a simple calendar application that allows a user to save events for each hour
+                        of the day by modifying starter code. This app will run in the browser and feature dynamically
+                        updated HTML and CSS powered by jQuery.</p>
                 </div>
             </div>
         </div>
